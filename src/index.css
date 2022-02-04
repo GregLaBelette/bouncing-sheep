@@ -1,3 +1,67 @@
 body {
-  background-color: black;
+  height: 100vh;
+  margin: 0;
+}
+
+.root {
+  height: 100vh;
+}
+
+.field {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.earth {
+  width: 70vw;
+  height: 100vh;
+}
+
+.innerEarth {
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  margin: 5vh;
+  height: calc(100% - 10vh);
+  width: calc(100% - 10vh);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.paradise {
+  background-color: var(--green);
+  height: 100vh;
+  width: 30vw;
+}
+
+.innerParadise {
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  margin: 3vh;
+  height: calc(100% - 6vh);
+  width: calc(100% - 6vh);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.sheep {
+  width: 10vh;
+  height: 10 vh;
+  position: absolute;
+  z-index: 1;
+  filter: drop-shadow(2px 2px 5px rgba(100, 100, 100, 0.4));
+}
+
+.jumping {
+  transform: translateX(20vw);
+  transition: 0.5s cubic-bezier(.27, -0.04, 0, 1);
+}
+
+.toparadise {
+  transform: translateY(-100vh);
+  transition: 1s cubic-bezier(1, -0.02, .51, .5);
+}
+
+.grass {
+  width: 6vh;
+  height: 6vh;
+  position: absolute;
 }

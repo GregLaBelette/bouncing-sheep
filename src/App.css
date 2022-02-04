@@ -1,3 +1,9 @@
 body {
   background-color: black;
+  --green: #3ACE75;
+  --darkgreen: #238249;
+}
+
+.paradise {
+  background-color: var(--green);
 }
