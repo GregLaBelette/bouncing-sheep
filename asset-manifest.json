@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/greglabelette.github.io/bouncing-sheep/static/css/main.ee09baa0.css",
+    "main.js": "/greglabelette.github.io/bouncing-sheep/static/js/main.12ef9594.js",
+    "static/js/787.b1dc7dbe.chunk.js": "/greglabelette.github.io/bouncing-sheep/static/js/787.b1dc7dbe.chunk.js",
+    "index.html": "/greglabelette.github.io/bouncing-sheep/index.html",
+    "main.ee09baa0.css.map": "/greglabelette.github.io/bouncing-sheep/static/css/main.ee09baa0.css.map",
+    "main.12ef9594.js.map": "/greglabelette.github.io/bouncing-sheep/static/js/main.12ef9594.js.map",
+    "787.b1dc7dbe.chunk.js.map": "/greglabelette.github.io/bouncing-sheep/static/js/787.b1dc7dbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee09baa0.css",
+    "static/js/main.12ef9594.js"
+  ]
+}
