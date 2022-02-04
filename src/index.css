@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+
 body {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
   height: 100vh;
   margin: 0;
 }
@@ -50,6 +54,7 @@ body {
   filter: drop-shadow(2px 2px 5px rgba(100, 100, 100, 0.4));
 }
 
+
 .jumping {
   transform: translateX(20vw);
   transition: 0.5s cubic-bezier(.27, -0.04, 0, 1);
@@ -61,7 +66,75 @@ body {
 }
 
 .grass {
+  animation: flicker 0.1s ease-in-out alternate infinite;
   width: 6vh;
   height: 6vh;
   position: absolute;
+}
+
+@keyframes flicker {
+  0% {
+    transform: rotate(2deg)
+  }
+
+  50% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(-2deg)
+  }
+}
+
+.counter {
+  font-size: 3vh;
+  position: absolute;
+  bottom: 2vh;
+  left: 3vh;
+  color: white;
+  opacity: 0.4;
+}
+
+.gamerules {
+  font-size: 2vh;
+  position: absolute;
+  bottom: 2vh;
+  right: 1vh;
+  opacity: 0.5;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.title {
+  font-size: 2vh;
+  position: absolute;
+  top: 1vh;
+  left: 2vh;
+  opacity: 0.4;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: white;
+  background-color: var(--green);
+  padding: 1vh 3vh 1vh 3vh;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--darkgreen);
 }
