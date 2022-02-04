@@ -50,7 +50,7 @@ const Field = ({ sheepCoordinates, grassCoordinates }) => {
                 <h2>Mission accomplished in {game.score} seconds ! </h2>
               )
             }
-            <a href="/" className='button'>Try again</a>
+            <a href="/bouncing-sheep" className='button'>Try again</a>
           </Modal>
         ) : null
       }
